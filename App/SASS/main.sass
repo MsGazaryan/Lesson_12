@@ -1,0 +1,46 @@
+*
+	margin: 0
+	padding: 0
+
+
+section#main
+	width: 100%
+	height: 100vh
+	background-color: midnightblue
+	h1
+		padding-top: 5vh
+		padding-top: 5vh
+		color: #FFFFFF
+		font-size: 10vh
+		font-family: 'Times'
+		font-weight: lighter
+		text-align: center
+		text-transform: uppercase
+	ul
+		list-style-type: none
+		li
+			background-color: aliceblue
+			text-align: center
+			font-size: 5vh
+			font-family: 'Times'
+			font-weight: bold
+			line-height: 7vh
+			transition: all 0.5s
+			&:hover
+				background-color: cornflowerblue
+				p
+					color: yellow
+				&:nth-child(2)
+			&:nth-child(2):hover
+				color: white
+				font-size: 6vh
+				background-color: rgba(0, 0, 0, 0.5)
+				&:hover ~ li
+					color: blue
+
+				/* Форматі цветов:
+					- словами
+					- #asdasd hex
+					- rgb(доля красного, зеленого, синего (255,255,255)
+					- rgba (255,255,255,opacity)
+					- hsl (hue satturation lightness) (360,100%,50%) */
